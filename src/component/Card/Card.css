@@ -1,0 +1,17 @@
+.card-container{
+    width: 400px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin: 40px;
+    padding: 15px;
+}
+.mob-no{
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}

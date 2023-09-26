@@ -1,0 +1,23 @@
+.titile{
+    text-align: center;
+   font-size: 45px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.input{
+    width: 450px;
+    margin-left: 530px;
+    height: 40px;
+    font-size: 26px;
+    color: brown;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+.not-found{
+    text-align: center;
+}
