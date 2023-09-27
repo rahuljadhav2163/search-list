@@ -1,5 +1,12 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: aqua;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #115ccc, #0091f3, #00bad4, #00d983, #a8eb12);
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    height: auto;
+  }
 }

@@ -3,6 +3,7 @@ import{useState, useEffect} from 'react'
 import './Home.css'
 import {hoteldetail} from './../../data/data'
 import Card from './../../component/Card/Card'
+import fivestar from "./Hotel_Entrance_Dusk-e1628830398783.jpg"
 
 const Home = () => {
     
@@ -35,11 +36,11 @@ const Home = () => {
       <div className='contain'>
         {
             hotels.map((hotel,index)=>{
-                const {name,contact,address}=hotel;
+                const {name,contact,address,img}=hotel;
                 
                 return (
                      
-                         <Card key={index} name={name} contact={contact} address={address}/> 
+                         <Card img={img} key={index} name={name} contact={contact} address={address} /> 
                  
                 )
                     }
